@@ -20,7 +20,7 @@ A very fast tool written in C99/C11 which displays information about your system
 Look to [the installation guide](INSTALL.md).
 
 ## Reporting issue
-If you get an issue with using cfetch, you should report it on GitHub Issues with attached output of command:
+If you get an issue with using c11fetch, you should report it on GitHub Issues with attached output of command:
 ```sh
 C11FETCH_DEBUG=1 cfetch
 ```
