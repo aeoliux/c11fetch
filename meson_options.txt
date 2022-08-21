@@ -1,0 +1,10 @@
+option('disable-c11fetch-default-plugins', type: 'boolean', value: false)
+
+option('strip-plugins', type: 'boolean', value: true)
+option('link-libdl', type: 'boolean', value: false)
+
+option('enable-lto', type: 'boolean', value: true)
+option('native-optimization', type: 'boolean', value: true)
+option('third-optlevel', type: 'boolean', value: true)
+
+option('enable-debug', type: 'boolean', value: false)
