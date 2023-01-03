@@ -13,6 +13,7 @@ A very fast tool written in C99/C11 which displays information about your system
 - Haiku
 - macOS/Mac OS X
 - Manjaro Linux
+- Nobara Linux
 - OpenBSD
 - Parabola GNU/Linux-libre
 
