@@ -78,6 +78,14 @@ if not get_option('disable-c11fetch-default-plugins')
 		install: true,
 		install_dir: 'share/c11fetch/plugins'
 	)
+	nobara = custom_target(
+		'nobara-plugin',
+		output: 'nobara.so',
+		input: 'c11fetch/plugins/nobara.c',
+		command: [dfl_flags, '@OUTPUT@', '@INPUT@'],
+		install: true,
+		install_dir: 'share/c11fetch/plugins'
+	)
 	devuan = custom_target(
 		'devuan-plugin',
 		output: 'devuan.so',
