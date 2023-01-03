@@ -1,4 +1,4 @@
-project('c11fetch', 'c', version: '1.0.0')
+project('c11fetch', 'c', version: '1.1.0')
 
 prefix = get_option('prefix')
 template = '-DPREFIX="@0@"'
